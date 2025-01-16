@@ -75,7 +75,7 @@
 // Heaters / Fans
 //
 #define HEATER_BED_PIN                      PB2   // HOT BED
-#define FAN1_PIN                            PC1   // extruder fan
+#define FAN0_PIN                            PA0   // extruder fan
 
 //
 // Steppers
@@ -93,6 +93,8 @@
   #define Y_DIAG_PIN                        PB11
 
   #define Z_SERIAL_TX_PIN                   PB14
+
+  #define E0_SERIAL_TX_PIN                  PB15
 #endif // HAS_TMC_UART
 
 //
